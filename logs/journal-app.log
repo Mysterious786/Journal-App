@@ -1,0 +1,211 @@
+2025-08-01 08:22:13.632 INFO  [main] [c.e.S.JournalApplication] - Starting JournalApplication using Java 24.0.1 with PID 72614 (/Users/saqlainansari/Downloads/Springbootproject/target/classes started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-08-01 08:22:13.634 INFO  [main] [c.e.S.JournalApplication] - The following 1 profile is active: "dev"
+2025-08-01 08:22:13.979 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:22:13.979 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-08-01 08:22:14.065 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 82 ms. Found 3 MongoDB repository interfaces.
+2025-08-01 08:22:14.074 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:22:14.075 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-01 08:22:14.083 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.ConfigJournalApp; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:22:14.083 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.JournalEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:22:14.083 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.UserEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:22:14.083 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-01 08:22:14.334 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 9091 (http)
+2025-08-01 08:22:14.340 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:22:14.342 INFO  [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-08-01 08:22:14.342 INFO  [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-01 08:22:14.359 INFO  [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-08-01 08:22:14.360 INFO  [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 699 ms
+2025-08-01 08:22:15.455 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-08-01 08:22:15.871 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:22:15.875 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 9091 (http) with context path '/'
+2025-08-01 08:22:15.881 INFO  [main] [c.e.S.JournalApplication] - Started JournalApplication in 2.543 seconds (process running for 2.928)
+2025-08-01 08:22:15.882 INFO  [main] [c.e.S.JournalApplication] - Active profile: dev
+2025-08-01 08:24:14.363 INFO  [SpringApplicationShutdownHook] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01 08:24:14.370 INFO  [tomcat-shutdown] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-08-01 08:24:17.664 INFO  [main] [c.e.S.JournalApplication] - Starting JournalApplication using Java 24.0.1 with PID 72641 (/Users/saqlainansari/Downloads/Springbootproject/target/classes started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-08-01 08:24:17.665 INFO  [main] [c.e.S.JournalApplication] - The following 1 profile is active: "dev"
+2025-08-01 08:24:18.014 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:24:18.014 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-08-01 08:24:18.073 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56 ms. Found 3 MongoDB repository interfaces.
+2025-08-01 08:24:18.082 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:24:18.083 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-01 08:24:18.089 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.ConfigJournalApp; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:24:18.089 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.JournalEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:24:18.089 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.UserEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:24:18.089 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-01 08:24:18.324 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 9091 (http)
+2025-08-01 08:24:18.331 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:24:18.332 INFO  [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-08-01 08:24:18.332 INFO  [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-01 08:24:18.353 INFO  [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-08-01 08:24:18.353 INFO  [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 660 ms
+2025-08-01 08:24:19.532 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-08-01 08:24:19.866 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:24:19.870 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 9091 (http) with context path '/'
+2025-08-01 08:24:19.876 INFO  [main] [c.e.S.JournalApplication] - Started JournalApplication in 2.432 seconds (process running for 2.725)
+2025-08-01 08:24:19.877 INFO  [main] [c.e.S.JournalApplication] - Active profile: dev
+2025-08-01 08:26:04.514 INFO  [SpringApplicationShutdownHook] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01 08:26:04.522 INFO  [tomcat-shutdown] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-08-01 08:26:08.368 INFO  [main] [c.e.S.JournalApplication] - Starting JournalApplication using Java 24.0.1 with PID 72669 (/Users/saqlainansari/Downloads/Springbootproject/target/classes started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-08-01 08:26:08.368 INFO  [main] [c.e.S.JournalApplication] - The following 1 profile is active: "dev"
+2025-08-01 08:26:08.672 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:26:08.672 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-08-01 08:26:08.732 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 57 ms. Found 3 MongoDB repository interfaces.
+2025-08-01 08:26:08.741 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:26:08.741 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-01 08:26:08.748 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.ConfigJournalApp; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:26:08.748 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.JournalEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:26:08.748 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.UserEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:26:08.748 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-01 08:26:08.978 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 9091 (http)
+2025-08-01 08:26:08.986 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:26:08.987 INFO  [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-08-01 08:26:08.987 INFO  [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-01 08:26:09.005 INFO  [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-08-01 08:26:09.005 INFO  [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 614 ms
+2025-08-01 08:26:09.973 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-08-01 08:26:10.317 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:26:10.321 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 9091 (http) with context path '/'
+2025-08-01 08:26:10.328 INFO  [main] [c.e.S.JournalApplication] - Started JournalApplication in 2.172 seconds (process running for 2.45)
+2025-08-01 08:26:10.329 INFO  [main] [c.e.S.JournalApplication] - Active profile: dev
+2025-08-01 08:26:37.737 INFO  [http-nio-9091-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-01 08:26:37.738 INFO  [http-nio-9091-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-08-01 08:26:37.740 INFO  [http-nio-9091-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2025-08-01 08:35:41.385 INFO  [SpringApplicationShutdownHook] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01 08:35:41.396 INFO  [tomcat-shutdown] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-08-01 08:42:34.776 INFO  [main] [c.e.S.JournalApplication] - Starting JournalApplication using Java 24.0.1 with PID 72991 (/Users/saqlainansari/Downloads/Springbootproject/target/classes started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-08-01 08:42:34.776 INFO  [main] [c.e.S.JournalApplication] - The following 1 profile is active: "dev"
+2025-08-01 08:42:35.088 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:42:35.088 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-08-01 08:42:35.147 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56 ms. Found 3 MongoDB repository interfaces.
+2025-08-01 08:42:35.154 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-01 08:42:35.155 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-01 08:42:35.161 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.ConfigJournalApp; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:42:35.162 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.JournalEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:42:35.162 INFO  [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.Springbootproject.repository.UserEntryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-01 08:42:35.162 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-01 08:42:35.396 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 9091 (http)
+2025-08-01 08:42:35.402 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:42:35.404 INFO  [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-08-01 08:42:35.404 INFO  [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-01 08:42:35.421 INFO  [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-08-01 08:42:35.421 INFO  [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 624 ms
+2025-08-01 08:42:36.580 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-08-01 08:42:36.891 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9091"]
+2025-08-01 08:42:36.898 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 9091 (http) with context path '/'
+2025-08-01 08:42:36.905 INFO  [main] [c.e.S.JournalApplication] - Started JournalApplication in 2.334 seconds (process running for 2.627)
+2025-08-01 08:42:36.906 INFO  [main] [c.e.S.JournalApplication] - Active profile: dev
+2025-08-01 08:42:41.609 INFO  [http-nio-9091-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-01 08:42:41.610 INFO  [http-nio-9091-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-08-01 08:42:41.611 INFO  [http-nio-9091-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2025-08-01 08:42:42.054 ERROR [http-nio-9091-exec-1] [c.e.S.service.RedisService] - Exception is :
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "o" is null
+	at com.example.Springbootproject.service.RedisService.get(RedisService.java:24)
+	at com.example.Springbootproject.service.WeatherService.getWeather(WeatherService.java:26)
+	at com.example.Springbootproject.controller.UserEntryController.greetings(UserEntryController.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.Springbootproject.filter.JwtFilter.doFilterInternal(JwtFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025-08-01 09:15:07.606 INFO  [SpringApplicationShutdownHook] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01 09:15:07.621 INFO  [tomcat-shutdown] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete

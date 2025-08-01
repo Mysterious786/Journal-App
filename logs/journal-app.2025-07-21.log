@@ -1,0 +1,292 @@
+2025-07-21 01:04:10.081 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:04:10.264 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:04:10.634 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79376 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:04:10.634 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:04:10.987 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:04:11.014 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 24 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:04:12.279 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:04:12.435 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 2.011 seconds (process running for 3.296)
+2025-07-21 01:04:12.441 WARN  [main] [o.s.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.Springbootproject.repository.UserRepositoryImplTest@4e79c25]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.example.Springbootproject.repository.UserRepositoryImplTest': Unsatisfied dependency expressed through field 'userRepositoryImpl': No qualifying bean of type 'com.example.Springbootproject.repository.UserRepositoryImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:405)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:156)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.Springbootproject.repository.UserRepositoryImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2280)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 82 common frames omitted
+2025-07-21 01:06:29.100 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:06:29.162 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:06:29.383 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79428 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:06:29.384 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:06:29.644 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:06:29.667 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 20 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:06:30.907 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:06:31.053 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 1.819 seconds (process running for 2.586)
+2025-07-21 01:06:31.063 WARN  [main] [o.s.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.Springbootproject.repository.UserRepositoryImplTest@608f310a]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.example.Springbootproject.repository.UserRepositoryImplTest': Unsatisfied dependency expressed through field 'userRepositoryImpl': No qualifying bean of type 'com.example.Springbootproject.repository.UserRepositoryImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:405)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:156)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.Springbootproject.repository.UserRepositoryImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2280)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 82 common frames omitted
+2025-07-21 01:09:44.745 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:09:44.799 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:09:45.039 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79490 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:09:45.039 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:09:45.327 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:09:45.348 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 19 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:09:46.710 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:09:46.884 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 2.0 seconds (process running for 2.867)
+2025-07-21 01:10:14.387 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:10:14.454 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:10:38.147 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79541 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:10:38.151 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:13:15.330 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:13:15.398 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:13:25.476 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79591 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:13:25.479 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:13:25.801 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:13:25.826 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 21 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:13:38.461 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:13:38.619 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 23.13 seconds (process running for 24.377)
+2025-07-21 01:14:22.318 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:14:22.375 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:14:22.597 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79638 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:14:22.597 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:14:22.861 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:14:22.884 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 19 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:14:23.955 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:14:24.101 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 1.652 seconds (process running for 2.33)
+2025-07-21 01:15:49.972 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:15:50.028 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:15:50.230 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79719 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:15:50.231 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:15:50.578 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:15:50.601 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 20 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:15:52.007 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:15:52.137 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 2.041 seconds (process running for 2.692)
+2025-07-21 01:16:57.379 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:16:57.440 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:16:57.687 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 79767 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:16:57.687 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:16:57.963 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:16:57.986 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 19 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:16:59.178 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:16:59.321 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 1.802 seconds (process running for 2.543)
+2025-07-21 01:31:36.637 INFO  [main] [c.e.S.JournalApplication] - Starting JournalApplication using Java 24.0.1 with PID 80101 (/Users/saqlainansari/Downloads/Springbootproject/target/classes started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:31:36.638 INFO  [main] [c.e.S.JournalApplication] - The following 1 profile is active: "dev"
+2025-07-21 01:31:36.977 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:31:37.000 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 20 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:31:37.224 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 9091 (http)
+2025-07-21 01:31:37.232 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9091"]
+2025-07-21 01:31:37.234 INFO  [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-07-21 01:31:37.234 INFO  [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-21 01:31:37.282 INFO  [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-07-21 01:31:37.282 INFO  [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 612 ms
+2025-07-21 01:31:38.459 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:31:38.552 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9091"]
+2025-07-21 01:31:38.557 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 9091 (http) with context path '/'
+2025-07-21 01:31:38.561 INFO  [main] [c.e.S.JournalApplication] - Started JournalApplication in 2.21 seconds (process running for 2.52)
+2025-07-21 01:31:38.562 INFO  [main] [c.e.S.JournalApplication] - Active profile: dev
+2025-07-21 01:39:31.226 INFO  [SpringApplicationShutdownHook] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 01:39:31.252 INFO  [tomcat-shutdown] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-07-21 01:39:35.841 INFO  [main] [c.e.S.JournalApplication] - Starting JournalApplication using Java 24.0.1 with PID 80250 (/Users/saqlainansari/Downloads/Springbootproject/target/classes started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:39:35.842 INFO  [main] [c.e.S.JournalApplication] - The following 1 profile is active: "dev"
+2025-07-21 01:39:36.200 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:39:36.230 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 27 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:39:36.502 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 9091 (http)
+2025-07-21 01:39:36.511 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9091"]
+2025-07-21 01:39:36.513 INFO  [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-07-21 01:39:36.513 INFO  [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-21 01:39:36.530 INFO  [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2025-07-21 01:39:36.531 INFO  [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 655 ms
+2025-07-21 01:39:37.630 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:39:37.722 INFO  [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9091"]
+2025-07-21 01:39:37.726 INFO  [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 9091 (http) with context path '/'
+2025-07-21 01:39:37.730 INFO  [main] [c.e.S.JournalApplication] - Started JournalApplication in 2.17 seconds (process running for 2.559)
+2025-07-21 01:39:37.731 INFO  [main] [c.e.S.JournalApplication] - Active profile: dev
+2025-07-21 01:39:43.630 INFO  [SpringApplicationShutdownHook] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21 01:39:43.634 INFO  [tomcat-shutdown] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-07-21 01:39:48.956 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:39:49.004 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:39:49.192 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 80264 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:39:49.193 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:39:49.475 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:39:49.500 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 22 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:39:50.560 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:39:50.709 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 1.641 seconds (process running for 2.351)
+2025-07-21 01:41:53.041 INFO  [main] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.Springbootproject.repository.UserRepositoryImplTest]: UserRepositoryImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-21 01:41:53.099 INFO  [main] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.Springbootproject.JournalApplication for test class com.example.Springbootproject.repository.UserRepositoryImplTest
+2025-07-21 01:41:53.308 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Starting UserRepositoryImplTest using Java 24.0.1 with PID 80324 (started by saqlainansari in /Users/saqlainansari/Downloads/Springbootproject)
+2025-07-21 01:41:53.308 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - The following 1 profile is active: "dev"
+2025-07-21 01:41:53.559 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-21 01:41:53.581 INFO  [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 20 ms. Found 3 MongoDB repository interfaces.
+2025-07-21 01:41:54.853 INFO  [main] [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-07-21 01:41:54.988 INFO  [main] [c.e.S.r.UserRepositoryImplTest] - Started UserRepositoryImplTest in 1.817 seconds (process running for 2.541)

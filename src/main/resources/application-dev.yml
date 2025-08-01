@@ -1,0 +1,60 @@
+#spring:
+#  application:
+#    name: JournalApplication
+#
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: saqlainzarjisansari@gmail.com
+#    password: bjkk ufey wkhd ryxi
+#    properties:
+#      mail.smtp.auth: true
+#      mail.smtp.starttls.enable: true
+#
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://saqlainzarjisansari:KSg8arf7VKCWhzGg@cluster0.08nfq9f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+#      database: journaldb
+#      auto-index-creation: true
+#      # host: localhost
+#      # port: 27017
+#      # username: journaldb
+#      # password: journaldb
+##  redis:
+###    host: localhost
+###    port: 6379
+##     host: redis://default:GnY1kk9mZf0vVz7mAp57VuvfC2tbn6Uo@redis-19027.c301.ap-south-1-1.ec2.redns.redis-cloud.com:19027
+#    redis:
+#      host: redis-19027.c301.ap-south-1-1.ec2.redns.redis-cloud.com:19027
+#      port:
+#      password:
+#server:
+#  port: 9091
+#  # servlet:
+#  #   context-path: /app
+spring:
+  application:
+    name: JournalApplication
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: saqlainzarjisansari@gmail.com
+    password: bjkk ufey wkhd ryxi
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+  data:
+    mongodb:
+      uri: mongodb+srv://saqlainzarjisansari:KSg8arf7VKCWhzGg@cluster0.08nfq9f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+    redis:
+      host: redis-19027.c301.ap-south-1-1.ec2.redns.redis-cloud.com
+      port: 19027
+      password: GnY1kk9mZf0vVz7mAp57VuvfC2tbn6Uo
+
+server:
+  port: 9091
